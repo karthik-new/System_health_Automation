@@ -1,3 +1,13 @@
+Python automation script to run a health check-up of the system based on the below requirements and send an alert via email notification.
+
+Requirements:
+
+Monitor CPU usage and send an alert if it exceeds 80%.
+Monitor available disk space and send an alert if it drops below 20%.
+Monitor available memory and send an alert if it’s less than 500MB.
+Verify that the hostname “localhost” resolves to “127.0.0.1” and send an alert if it doesn’t.
+If the system passes all the above requirement tests, then send an alert notifying "system is healthy.".
+
 Implementing the Solution:
 
 Let’s walk through the steps to implement and test the solution:
