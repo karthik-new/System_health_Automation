@@ -57,8 +57,8 @@ from email.mime.text import MIMEText
 
 smtp_server = 'smtp.gmail.com'
 port = 587  # For TLS
-sender_email = 'karthik2015kn@gmail.com'
-receiver_email = 'karthik2015kn@gmail.com'
+sender_email = 'username@gmail.com'
+receiver_email = 'username@gmail.com'
 message = "Host Name: " + host_name + "\n" + "Message: " + subject
 
 # Create a MIMEText object for the email content
