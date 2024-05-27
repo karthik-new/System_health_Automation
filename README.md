@@ -2,11 +2,11 @@ Python automation script to run a health check-up of the system based on the bel
 
 Requirements:
 
-Monitor CPU usage and send an alert if it exceeds 80%.
-Monitor available disk space and send an alert if it drops below 20%.
-Monitor available memory and send an alert if it’s less than 500MB.
-Verify that the hostname “localhost” resolves to “127.0.0.1” and send an alert if it doesn’t.
-If the system passes all the above requirement tests, then send an alert notifying "system is healthy.".
+1. Monitor CPU usage and send an alert if it exceeds 80%.
+2. Monitor available disk space and send an alert if it drops below 20%.
+3. Monitor available memory and send an alert if it’s less than 500MB.
+4. Verify that the hostname “localhost” resolves to “127.0.0.1” and send an alert if it doesn’t.
+5. If the system passes all the above requirement tests, then send an alert notifying "system is healthy.".
 
 Implementing the Solution:
 
