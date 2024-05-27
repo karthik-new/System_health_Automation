@@ -14,7 +14,7 @@ Let’s walk through the steps to implement and test the solution:
 
 Create 'System_Diagnostic.py':
 
-++ **Before proceeding to next steps, replace email provider and email Id and save the scrip**t ++
+++ **Before proceeding to next steps, replace email provider and email Id in the scrip**t ++
 
 Open your terminal and create a new file named System_Diagnostic.py using your preferred text editor. Paste the code provided above into this file.
 
